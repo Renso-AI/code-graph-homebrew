@@ -9,27 +9,27 @@ class CodeGraph < Formula
   homepage "https://cg.renso.ai"
   # Proprietary, closed-source software (c) Renso AI; not an SPDX/OSS license.
   license :cannot_represent
-  version "1.0.27"
+  version "1.1.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.0.27/code_graph-aarch64-apple-darwin.tar.gz"
-      sha256 "9962a4cf772f7c327157bc1aaaa80eef1b8c7c6bf5f8a6a5ec5f460511b05b60"
+      url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.1.0/code_graph-aarch64-apple-darwin.tar.gz"
+      sha256 "69c33cc5ee104ccdb271a741674e033de8dafe1d6ca42aaea35195859b980d9a"
     end
     on_intel do
-      url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.0.27/code_graph-x86_64-apple-darwin.tar.gz"
-      sha256 "fb1da31e0faddcc6ae1c59be4303b6b8f7071efec92f24b4b4d20150da37051d"
+      url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.1.0/code_graph-x86_64-apple-darwin.tar.gz"
+      sha256 "4058a1138a2a5f57a5b0a09add6f0b0238eb2a24ec0068c9ab39c23ff52edd9c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.0.27/code_graph-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9aeb251168539637f788730a4a9159546cabd37d03831fe0ab51cd4c95166c92"
+      url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.1.0/code_graph-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a4e9543f590825b1a8b1fa940d9aba8098d1f46af0785edd0f073b067f409bda"
     end
     on_intel do
-      url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.0.27/code_graph-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cb328c9380fdc3453f883cf475a3def0d1ceaec5b8c8e98e83e2b52fe1cbef7b"
+      url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.1.0/code_graph-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9809c5fbe031c31dd70c2505bf0d299f388f180d4ac5a7cc29156c7d95711dfd"
     end
   end
 
@@ -38,22 +38,22 @@ class CodeGraph < Formula
   resource "code_graph-mcp" do
     on_macos do
       on_arm do
-        url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.0.27/code_graph-mcp-aarch64-apple-darwin.tar.gz"
-        sha256 "49bd256871b39961282dc657601ae5905d22a8a873d0648bcb555c346f62bd68"
+        url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.1.0/code_graph-mcp-aarch64-apple-darwin.tar.gz"
+        sha256 "c2e304598e74f41e1255a3741e823a5f4083b342c1ac9165220504c5eb729412"
       end
       on_intel do
-        url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.0.27/code_graph-mcp-x86_64-apple-darwin.tar.gz"
-        sha256 "9a1ea7cd7e97e7027dab2b2c16cc99308948ceb9aca748c1d232816d687c9ba0"
+        url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.1.0/code_graph-mcp-x86_64-apple-darwin.tar.gz"
+        sha256 "45dcad3234dc04329948fbedb524267970f55b0f6cc7c329ee0aaee43fcf7e60"
       end
     end
     on_linux do
       on_arm do
-        url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.0.27/code_graph-mcp-aarch64-unknown-linux-gnu.tar.gz"
-        sha256 "dffa493f04ee7c26023ede7ba225dfc4e0e03cfe4c45121511b25c315942aaa4"
+        url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.1.0/code_graph-mcp-aarch64-unknown-linux-gnu.tar.gz"
+        sha256 "3ec2a6b1868ef51c241588ff7724e48b2748848cca7837aeac78e8c4a8fcc485"
       end
       on_intel do
-        url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.0.27/code_graph-mcp-x86_64-unknown-linux-gnu.tar.gz"
-        sha256 "870ff1f74bbb0aa682c98dd9f4870f52acc543d9879d8c4b27fc43635dfc62c3"
+        url "https://github.com/Renso-AI/code-graph-dist/releases/download/v1.1.0/code_graph-mcp-x86_64-unknown-linux-gnu.tar.gz"
+        sha256 "93bb59b641a6a6aa01be408ae231058c83a381fb7749272e4ab07c4c2eb3e860"
       end
     end
   end
